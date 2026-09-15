@@ -1,229 +1,376 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>João Paulo Dias Ferreira | Executive Leadership & Transformation</title>
-    <meta name="description" content="Transformation, Operations & Technology Executive turning complexity into scalable operating systems.">
-    
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    
-    <!-- Google Fonts: Inter -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            fontFamily: {
-              sans: ['Inter', 'sans-serif'],
-            },
+  <title>João Paulo Dias Ferreira | Transformation & Operations Executive</title>
+  <meta name="description" content="Helping technology-enabled companies scale without breaking. Transformation, operations, strategy, operating models and execution.">
+  <meta name="author" content="João Paulo Dias Ferreira">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://jpdferreira.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jpdferreira.com/">
+  <meta property="og:title" content="João Paulo Dias Ferreira | Transformation & Operations Executive">
+  <meta property="og:description" content="Helping technology-enabled companies scale without breaking.">
+  <meta property="og:site_name" content="João Paulo Dias Ferreira">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="João Paulo Dias Ferreira | Transformation & Operations Executive">
+  <meta name="twitter:description" content="Helping technology-enabled companies scale without breaking.">
+
+  <!-- Lightweight inline favicon -->
+  <link rel="icon" href="data:image/svg+xml,
+  <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>
+    <rect width='100' height='100' rx='20' fill='%23020617'/>
+    <text x='50' y='61' text-anchor='middle' font-family='Arial,sans-serif'
+      font-size='42' font-weight='700' fill='%2367e8f9'>JP</text>
+  </svg>">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif']
           }
         }
       }
-    </script>
+    }
+  </script>
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "João Paulo Dias Ferreira",
+    "url": "https://jpdferreira.com/",
+    "jobTitle": "Transformation & Operations Executive",
+    "homeLocation": {
+      "@type": "Place",
+      "name": "Porto, Portugal"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/jpdferreira/"
+    ],
+    "knowsAbout": [
+      "Business Transformation",
+      "Operations Management",
+      "Business Strategy",
+      "Operating Models",
+      "Operational Excellence",
+      "Technology Strategy",
+      "Technology Commercialisation",
+      "Mergers and Acquisitions Integration"
+    ]
+  }
+  </script>
 </head>
-<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-cyan-500 selection:text-slate-950">
 
-    <!-- Header / Navigation -->
-    <header class="fixed top-0 w-full bg-slate-950/80 backdrop-blur-md z-50 border-b border-slate-800/60">
-        <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
-            <a href="#" class="text-xl font-bold tracking-tight text-white hover:text-cyan-400 transition">
-                JP<span class="text-cyan-500">.</span>Ferreira
-            </a>
-            <nav class="hidden md:flex space-x-8 text-sm font-medium text-slate-400">
-                <a href="#about" class="hover:text-white transition">About</a>
-                <a href="#capabilities" class="hover:text-white transition">Core Capabilities</a>
-                <!-- <a href="#ventures" class="hover:text-white transition">Ventures & Initiatives</a> -->
-                <a href="#contact" class="hover:text-white transition">Contact</a>
-            </nav>
-            <a href="#contact" class="px-4 py-2 text-sm font-medium text-slate-950 bg-cyan-400 hover:bg-cyan-300 rounded-lg transition shadow-lg shadow-cyan-500/10">
-                Get in Touch
-            </a>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-cyan-300 selection:text-slate-950">
+
+  <!-- Header -->
+  <header class="fixed top-0 z-50 w-full border-b border-slate-800/70 bg-slate-950/90 backdrop-blur">
+    <div class="mx-auto flex h-20 max-w-6xl items-center justify-between px-6">
+      <a href="#top" class="text-xl font-semibold tracking-tight text-white">
+        JP<span class="text-cyan-300">.</span>Ferreira
+      </a>
+
+      <nav class="hidden items-center gap-8 text-sm font-medium text-slate-400 md:flex" aria-label="Primary">
+        <a href="#about" class="transition hover:text-white">About</a>
+        <a href="#capabilities" class="transition hover:text-white">Capabilities</a>
+        <a href="#experience" class="transition hover:text-white">Experience</a>
+        <a href="#thinking" class="transition hover:text-white">Thinking</a>
+      </nav>
+
+      <a href="#contact"
+         class="rounded-lg border border-cyan-300/40 bg-cyan-300 px-4 py-2 text-sm font-semibold text-slate-950 transition hover:bg-cyan-200">
+        Start a Conversation
+      </a>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- Hero -->
+    <section class="mx-auto max-w-6xl px-6 pb-20 pt-36 md:pb-28 md:pt-48">
+      <div class="max-w-4xl">
+        <p class="mb-6 text-xs font-semibold uppercase tracking-[0.2em] text-cyan-300">
+          Transformation • Operations • Strategy • Execution
+        </p>
+
+        <h1 class="mb-6 text-4xl font-bold leading-tight tracking-tight text-white md:text-6xl">
+          Helping technology-enabled companies scale without breaking.
+        </h1>
+
+        <p class="mb-5 max-w-3xl text-xl font-light leading-relaxed text-slate-200 md:text-2xl">
+          I transform complex businesses into scalable operating systems.
+        </p>
+
+        <p class="mb-10 max-w-3xl text-base font-light leading-relaxed text-slate-400 md:text-lg">
+          Connecting strategy, people, process, data, technology and execution — especially when growth,
+          change or new technology has outpaced the way the organisation currently works.
+        </p>
+
+        <div class="flex flex-wrap gap-4">
+          <a href="#contact"
+             class="rounded-lg bg-cyan-300 px-6 py-3.5 font-semibold text-slate-950 transition hover:bg-cyan-200">
+            Start a Conversation
+          </a>
+          <a href="#experience"
+             class="rounded-lg border border-slate-800 bg-slate-900 px-6 py-3.5 font-medium text-slate-300 transition hover:border-slate-700 hover:text-white">
+            Selected Experience
+          </a>
         </div>
-    </header>
+      </div>
+    </section>
 
-    <!-- Hero Section -->
-    <section class="pt-36 pb-20 md:pt-48 md:pb-32 px-6 max-w-6xl mx-auto">
-        <div class="max-w-3xl">
-            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-950/60 border border-cyan-800/50 text-cyan-400 text-xs font-semibold uppercase tracking-wider mb-6">
-                <span class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
-                Transformation • Operations • Technology • Venture Building
-            </div>
-            <h1 class="text-4xl md:text-6xl font-bold tracking-tight text-white leading-tight mb-6">
-                João Paulo Dias Ferreira
-            </h1>
-            <p class="text-xl md:text-2xl font-light text-slate-200 mb-6">
-                Turning complexity into a scalable operating system.
+    <!-- Interfaces -->
+    <section class="border-y border-slate-800/70 bg-slate-900/25 px-6 py-10">
+      <div class="mx-auto grid max-w-6xl gap-8 sm:grid-cols-2 lg:grid-cols-4">
+        <div>
+          <p class="mb-1 text-lg font-semibold text-white">Strategy ↔ Execution</p>
+          <p class="text-sm leading-relaxed text-slate-400">Turning ambition into operating reality.</p>
+        </div>
+        <div>
+          <p class="mb-1 text-lg font-semibold text-white">Technology ↔ Business</p>
+          <p class="text-sm leading-relaxed text-slate-400">Translating capability into value.</p>
+        </div>
+        <div>
+          <p class="mb-1 text-lg font-semibold text-white">Growth ↔ Control</p>
+          <p class="text-sm leading-relaxed text-slate-400">Scaling without losing performance.</p>
+        </div>
+        <div>
+          <p class="mb-1 text-lg font-semibold text-white">Vision ↔ Operational Reality</p>
+          <p class="text-sm leading-relaxed text-slate-400">Designing the organisation that can deliver it.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="mx-auto max-w-6xl px-6 py-20 md:py-28">
+      <div class="grid gap-12 md:grid-cols-12">
+        <div class="md:col-span-4">
+          <p class="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-cyan-300">The integration advantage</p>
+          <h2 class="text-3xl font-bold tracking-tight text-white md:text-4xl">
+            I work at the interfaces where complexity tends to live.
+          </h2>
+        </div>
+
+        <div class="space-y-6 md:col-span-8">
+          <p class="text-lg leading-relaxed text-slate-300">
+            For more than two decades, my work has crossed technology and business, strategy and execution,
+            growth and control, people and systems.
+          </p>
+
+          <p class="leading-relaxed text-slate-400">
+            I tend to be most useful when a business has outgrown the way it operates — when growth,
+            technology, acquisitions or new markets have moved faster than the organisation around them.
+            My role is to understand the system, find the real problem behind the symptoms, design what needs
+            to change, align people around it, and help make it work.
+          </p>
+
+          <p class="leading-relaxed text-slate-400">
+            That pattern has followed me from engineering and industrial operations to post-IPO scale leadership,
+            deep-tech venture building, technology commercialisation, acquisitions and enterprise transformation.
+          </p>
+
+          <div class="flex flex-wrap gap-2 pt-2">
+            <span class="rounded-md border border-slate-800 bg-slate-900 px-3 py-1 text-xs text-slate-300">Business Transformation</span>
+            <span class="rounded-md border border-slate-800 bg-slate-900 px-3 py-1 text-xs text-slate-300">Operating Models</span>
+            <span class="rounded-md border border-slate-800 bg-slate-900 px-3 py-1 text-xs text-slate-300">Operations Leadership</span>
+            <span class="rounded-md border border-slate-800 bg-slate-900 px-3 py-1 text-xs text-slate-300">Technology Strategy</span>
+            <span class="rounded-md border border-slate-800 bg-slate-900 px-3 py-1 text-xs text-slate-300">Commercialisation</span>
+            <span class="rounded-md border border-slate-800 bg-slate-900 px-3 py-1 text-xs text-slate-300">M&A Integration</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Capabilities -->
+    <section id="capabilities" class="border-y border-slate-800/70 bg-slate-900/35 px-6 py-20 md:py-28">
+      <div class="mx-auto max-w-6xl">
+        <div class="mb-14 max-w-2xl">
+          <p class="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-cyan-300">Core capabilities</p>
+          <h2 class="mb-4 text-3xl font-bold tracking-tight text-white md:text-4xl">
+            Strategy → Operating Model → Execution
+          </h2>
+          <p class="leading-relaxed text-slate-400">
+            The work is rarely about one isolated function. It is about making the parts of the business work as one system.
+          </p>
+        </div>
+
+        <div class="grid gap-8 md:grid-cols-3">
+          <article class="rounded-xl border border-slate-800 bg-slate-950/45 p-8">
+            <p class="mb-5 text-sm font-semibold text-cyan-300">01</p>
+            <h3 class="mb-3 text-xl font-semibold text-white">Strategy & Transformation</h3>
+            <p class="text-sm leading-relaxed text-slate-400">
+              Defining strategic priorities, assessing growth options, shaping transformation agendas and translating strategy into measurable execution.
             </p>
-            <p class="text-base md:text-lg text-slate-400 leading-relaxed font-light mb-10">
-                Operational counterpart to visionary leadership—bridging the gap between technical capability, commercial strategy, and organizational execution to build systems that scale repeatedly.
+          </article>
+
+          <article class="rounded-xl border border-slate-800 bg-slate-950/45 p-8">
+            <p class="mb-5 text-sm font-semibold text-cyan-300">02</p>
+            <h3 class="mb-3 text-xl font-semibold text-white">Operating Model & Performance</h3>
+            <p class="text-sm leading-relaxed text-slate-400">
+              Designing accountability, decision-making, processes, governance, KPIs and management rhythms that allow organisations to scale with less friction.
             </p>
-            <div class="flex flex-wrap gap-4">
-                <a href="#contact" class="px-6 py-3.5 bg-cyan-400 text-slate-950 font-semibold rounded-lg hover:bg-cyan-300 transition shadow-lg shadow-cyan-500/20">
-                    Schedule a Conversation
-                </a>
-                <a href="#capabilities" class="px-6 py-3.5 bg-slate-900 text-slate-300 font-medium rounded-lg border border-slate-800 hover:bg-slate-800 hover:text-white transition">
-                    Explore Capabilities
-                </a>
-            </div>
-        </div>
-    </section>
+          </article>
 
-    <!-- Highlights Banner -->
-    <section class="border-y border-slate-800/60 bg-slate-900/30 py-12 px-6">
-        <div class="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
-            <div>
-                <p class="text-3xl font-bold text-white mb-1">Integration</p>
-                <p class="text-sm text-slate-400">Tech, Ops & Strategy</p>
-            </div>
-            <div>
-                <p class="text-3xl font-bold text-white mb-1">Venture to Corporate</p>
-                <p class="text-sm text-slate-400">Founder & Enterprise Scale</p>
-            </div>
-            <div>
-                <p class="text-3xl font-bold text-white mb-1">Lean Six Sigma</p>
-                <p class="text-sm text-slate-400">Operational Discipline</p>
-            </div>
-            <div>
-                <p class="text-3xl font-bold text-white mb-1">M&A & Integration</p>
-                <p class="text-sm text-slate-400">Full Lifecycle Exposure</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- About / Positioning Section -->
-    <section id="about" class="py-20 md:py-28 px-6 max-w-6xl mx-auto">
-        <div class="grid md:grid-cols-12 gap-12 items-center">
-            <div class="md:col-span-5">
-                <div class="relative">
-                    <div class="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-2xl blur opacity-25"></div>
-                    <div class="relative aspect-square rounded-2xl bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-600 font-mono text-sm">
-                        <!-- Replace with professional profile image tag -->
-                        [ Executive Profile Photo ]
-                    </div>
-                </div>
-            </div>
-            <div class="md:col-span-7 space-y-6">
-                <h2 class="text-3xl font-bold text-white tracking-tight">The Integration Advantage</h2>
-                <p class="text-slate-400 leading-relaxed">
-                    Growth and technology create complexity that often outpaces an organization's operating model. My focus is connecting the interfaces between technology, commercial reality, human capability, and systems architecture.
-                </p>
-                <p class="text-slate-400 leading-relaxed">
-                    With a background rooted in electrical engineering, post-IPO hypergrowth leadership, deep-tech venture creation, and enterprise transformation, I design working architectures that remove operational friction and allow teams to execute with speed and autonomy.
-                </p>
-                <div class="pt-4 flex flex-wrap gap-2">
-                    <span class="px-3 py-1 bg-slate-900 border border-slate-800 text-slate-300 rounded-md text-xs">Systems Architecture</span>
-                    <span class="px-3 py-1 bg-slate-900 border border-slate-800 text-slate-300 rounded-md text-xs">Operations Leadership</span>
-                    <span class="px-3 py-1 bg-slate-900 border border-slate-800 text-slate-300 rounded-md text-xs">Deep-Tech Commercialisation</span>
-                    <span class="px-3 py-1 bg-slate-900 border border-slate-800 text-slate-300 rounded-md text-xs">Enterprise Transformation</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Core Capabilities Section -->
-    <section id="capabilities" class="py-20 md:py-28 px-6 bg-slate-900/40 border-t border-slate-800/60">
-        <div class="max-w-6xl mx-auto">
-            <div class="max-w-2xl mb-16">
-                <h2 class="text-3xl font-bold text-white tracking-tight mb-4">Core Operating Capabilities</h2>
-                <p class="text-slate-400">Where I add maximum value when organizations face scale, complexity, or structural evolution.</p>
-            </div>
-
-            <div class="grid md:grid-cols-3 gap-8">
-                <!-- Capability 1 -->
-                <div class="p-8 rounded-xl bg-slate-900 border border-slate-800/80 hover:border-slate-700 transition">
-                    <div class="w-12 h-12 bg-cyan-950 border border-cyan-800/50 rounded-lg flex items-center justify-center text-cyan-400 mb-6 font-bold text-lg">
-                        01
-                    </div>
-                    <h3 class="text-xl font-semibold text-white mb-3">Operating System Architecture</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">
-                        Turning fragmented, high-friction environments into structured operating systems with clear ownership, performance rhythms, and actionable KPIs.
-                    </p>
-                </div>
-
-                <!-- Capability 2 -->
-                <div class="p-8 rounded-xl bg-slate-900 border border-slate-800/80 hover:border-slate-700 transition">
-                    <div class="w-12 h-12 bg-cyan-950 border border-cyan-800/50 rounded-lg flex items-center justify-center text-cyan-400 mb-6 font-bold text-lg">
-                        02
-                    </div>
-                    <h3 class="text-xl font-semibold text-white mb-3">Tech-to-Market Commercialisation</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">
-                        Translating complex technological capabilities into market propositions, viable economics, go-to-market strategies, and sustainable revenue models.
-                    </p>
-                </div>
-
-                <!-- Capability 3 -->
-                <div class="p-8 rounded-xl bg-slate-900 border border-slate-800/80 hover:border-slate-700 transition">
-                    <div class="w-12 h-12 bg-cyan-950 border border-cyan-800/50 rounded-lg flex items-center justify-center text-cyan-400 mb-6 font-bold text-lg">
-                        03
-                    </div>
-                    <h3 class="text-xl font-semibold text-white mb-3">Transformation & M&A Integration</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed">
-                        Redesigning operating models post-acquisition or during rapid growth phases—aligning strategy, people, processes, and systems to deliver synergy.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SECTION TEMPORARILY HIDDEN: Ventures & Initiatives -->
-    <!--
-    <section id="ventures" class="py-20 md:py-28 px-6 max-w-6xl mx-auto">
-        <div class="max-w-2xl mb-16">
-            <h2 class="text-3xl font-bold text-white tracking-tight mb-4">Selected Ventures & Initiatives</h2>
-            <p class="text-slate-400">Initiatives and business models built at the intersection of technology, health, and sustainability.</p>
-        </div>
-
-        <div class="grid md:grid-cols-2 gap-8">
-            <div class="p-8 rounded-2xl bg-slate-900/50 border border-slate-800 hover:border-slate-700 transition">
-                <span class="text-xs font-mono text-cyan-400 uppercase tracking-widest">Oral Health & Biotechnology</span>
-                <h3 class="text-2xl font-semibold text-white mt-2 mb-3">LOOMEA</h3>
-                <p class="text-slate-400 text-sm leading-relaxed mb-6">
-                    Premium fluoride-free oral care brand utilizing nano-hydroxyapatite and microbiome-preserving biomimetic science.
-                </p>
-            </div>
-
-            <div class="p-8 rounded-2xl bg-slate-900/50 border border-slate-800 hover:border-slate-700 transition">
-                <span class="text-xs font-mono text-cyan-400 uppercase tracking-widest">Eco-Tourism & Real Estate</span>
-                <h3 class="text-2xl font-semibold text-white mt-2 mb-3">Oriz Nexus</h3>
-                <p class="text-slate-400 text-sm leading-relaxed mb-6">
-                    Hybrid living and eco-tourism estate development concept integrated into natural landscapes in Vila Verde.
-                </p>
-            </div>
-        </div>
-    </section>
-    -->
-
-    <!-- Contact Section -->
-    <section id="contact" class="py-20 md:py-28 px-6 bg-slate-900/60 border-t border-slate-800/60">
-        <div class="max-w-3xl mx-auto text-center">
-            <h2 class="text-3xl md:text-4xl font-bold text-white tracking-tight mb-4">Let's Connect</h2>
-            <p class="text-slate-400 leading-relaxed mb-10">
-                Open to executive advisory, transformation mandates, or strategic leadership conversations.
+          <article class="rounded-xl border border-slate-800 bg-slate-950/45 p-8">
+            <p class="mb-5 text-sm font-semibold text-cyan-300">03</p>
+            <h3 class="mb-3 text-xl font-semibold text-white">Growth, Technology & Integration</h3>
+            <p class="text-sm leading-relaxed text-slate-400">
+              Connecting technology to market opportunities, business cases, partnerships, acquisitions and integration — with a focus on practical value creation.
             </p>
-            
-            <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
-                <a href="mailto:jpferreiracatalyst@gmail.com" class="w-full sm:w-auto px-8 py-4 bg-cyan-400 text-slate-950 font-semibold rounded-lg hover:bg-cyan-300 transition shadow-lg shadow-cyan-500/20">
-                    Send Email
-                </a>
-                <a href="https://www.linkedin.com/in/jpdferreira/" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto px-8 py-4 bg-slate-900 text-slate-200 font-medium rounded-lg border border-slate-800 hover:bg-slate-800 transition">
-                    LinkedIn Profile
-                </a>
-            </div>
+          </article>
         </div>
+      </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="py-8 border-t border-slate-800/60 text-center text-xs text-slate-500">
-        <div class="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row justify-between items-center gap-4">
-            <p>© 2026 João Paulo Dias Ferreira. All rights reserved.</p>
-            <p class="font-mono">www.jpdferreira.com</p>
+    <!-- Selected Experience -->
+    <section id="experience" class="mx-auto max-w-6xl px-6 py-20 md:py-28">
+      <div class="mb-14 max-w-2xl">
+        <p class="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-cyan-300">Selected experience</p>
+        <h2 class="mb-4 text-3xl font-bold tracking-tight text-white md:text-4xl">
+          Different environments. The same recurring problem.
+        </h2>
+        <p class="leading-relaxed text-slate-400">
+          How do you turn ambition into an organisation capable of delivering it?
+        </p>
+      </div>
+
+      <div class="grid gap-6 md:grid-cols-2">
+        <article class="rounded-xl border border-slate-800 bg-slate-900/35 p-7">
+          <p class="mb-2 text-sm font-medium text-cyan-300">Ocean Infinity · 2021–2026</p>
+          <h3 class="mb-3 text-xl font-semibold text-white">Strategy, transformation & future operating model</h3>
+          <p class="text-sm leading-relaxed text-slate-400">
+            Worked across new markets, strategic investments, acquisitions and enterprise transformation — including strategic planning, governance, operating-model design and the transition toward advanced robotic and remote operations.
+          </p>
+        </article>
+
+        <article class="rounded-xl border border-slate-800 bg-slate-900/35 p-7">
+          <p class="mb-2 text-sm font-medium text-cyan-300">Abyssal · 2011–2021</p>
+          <h3 class="mb-3 text-xl font-semibold text-white">Technology venture → commercialisation → acquisition</h3>
+          <p class="text-sm leading-relaxed text-slate-400">
+            Co-founded and helped build a deep-tech business from early-stage technology through commercialisation, institutional investment, strategic partnerships and eventual acquisition by Ocean Infinity.
+          </p>
+        </article>
+
+        <article class="rounded-xl border border-slate-800 bg-slate-900/35 p-7">
+          <p class="mb-2 text-sm font-medium text-cyan-300">Groupon Brazil · 2012–2014</p>
+          <h3 class="mb-3 text-xl font-semibold text-white">Hypergrowth → control → MD / COO</h3>
+          <p class="text-sm leading-relaxed text-slate-400">
+            Progressed from regional sales leadership to MD/COO during the post-IPO period, leading national commercial teams and later enterprise operations through restructuring, operational excellence and stronger performance discipline.
+          </p>
+        </article>
+
+        <article class="rounded-xl border border-slate-800 bg-slate-900/35 p-7">
+          <p class="mb-2 text-sm font-medium text-cyan-300">Qimonda · 2006–2009</p>
+          <h3 class="mb-3 text-xl font-semibold text-white">Industrial operations, performance systems & team autonomy</h3>
+          <p class="text-sm leading-relaxed text-slate-400">
+            Worked across memory-module test, production and Burn-In operations; improved test capacity, managed production ramp-down and inventory clean-up, developed advanced KPI systems and helped implement self-managed teams.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Thinking -->
+    <section id="thinking" class="border-y border-slate-800/70 bg-slate-900/35 px-6 py-20 md:py-28">
+      <div class="mx-auto max-w-6xl">
+        <div class="mb-14 max-w-2xl">
+          <p class="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-cyan-300">Thinking</p>
+          <h2 class="mb-4 text-3xl font-bold tracking-tight text-white md:text-4xl">
+            Scale Without Breaking
+          </h2>
+          <p class="leading-relaxed text-slate-400">
+            A practical point of view on how complex, technology-enabled companies grow without allowing organisational complexity to outrun execution.
+          </p>
         </div>
-    </footer>
+
+        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <article class="rounded-xl border border-slate-800 bg-slate-950/45 p-6">
+            <h3 class="mb-2 font-semibold text-white">Growth creates organisational debt</h3>
+            <p class="text-sm leading-relaxed text-slate-400">The operating model often breaks before the business realises it has outgrown it.</p>
+          </article>
+
+          <article class="rounded-xl border border-slate-800 bg-slate-950/45 p-6">
+            <h3 class="mb-2 font-semibold text-white">Technology is not transformation</h3>
+            <p class="text-sm leading-relaxed text-slate-400">Technology changes outcomes only when roles, processes, decisions and incentives change with it.</p>
+          </article>
+
+          <article class="rounded-xl border border-slate-800 bg-slate-950/45 p-6">
+            <h3 class="mb-2 font-semibold text-white">KPIs as decision infrastructure</h3>
+            <p class="text-sm leading-relaxed text-slate-400">Performance measures should improve decisions, not merely create more reporting.</p>
+          </article>
+
+          <article class="rounded-xl border border-slate-800 bg-slate-950/45 p-6">
+            <h3 class="mb-2 font-semibold text-white">From founder speed to scalable autonomy</h3>
+            <p class="text-sm leading-relaxed text-slate-400">The goal is not bureaucracy. It is enough architecture for talented people to move faster.</p>
+          </article>
+
+          <article class="rounded-xl border border-slate-800 bg-slate-950/45 p-6">
+            <h3 class="mb-2 font-semibold text-white">From deal thesis to operating reality</h3>
+            <p class="text-sm leading-relaxed text-slate-400">The hard part of M&A begins when acquired capability has to become part of a working organisation.</p>
+          </article>
+
+          <article class="rounded-xl border border-slate-800 bg-slate-950/45 p-6">
+            <h3 class="mb-2 font-semibold text-white">Deep-tech commercialisation is translation</h3>
+            <p class="text-sm leading-relaxed text-slate-400">Technical possibility matters only when it becomes commercially legible and operationally executable.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="px-6 py-20 md:py-28">
+      <div class="mx-auto max-w-3xl text-center">
+        <p class="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-cyan-300">Contact</p>
+        <h2 class="mb-4 text-3xl font-bold tracking-tight text-white md:text-4xl">
+          Start a conversation
+        </h2>
+
+        <p class="mb-10 leading-relaxed text-slate-400">
+          I work with CEOs, founders and leadership teams on selected transformation, operating and advisory mandates.
+          I am also open to the right full-time C-level or Managing Director role where the mandate is to build,
+          transform or scale something ambitious.
+        </p>
+
+        <div class="flex flex-col items-center justify-center gap-4 sm:flex-row">
+          <a href="mailto:j.p.d.ferreira@gmail.com"
+             class="w-full rounded-lg bg-cyan-300 px-8 py-4 font-semibold text-slate-950 transition hover:bg-cyan-200 sm:w-auto">
+            Send Email
+          </a>
+
+          <a href="https://www.linkedin.com/in/jpdferreira/"
+             target="_blank"
+             rel="noopener noreferrer"
+             class="w-full rounded-lg border border-slate-800 bg-slate-900 px-8 py-4 font-medium text-slate-200 transition hover:border-slate-700 hover:text-white sm:w-auto">
+            LinkedIn Profile
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-slate-800/70 py-8 text-xs text-slate-500">
+    <div class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 px-6 sm:flex-row">
+      <p>© 2026 João Paulo Dias Ferreira. All rights reserved.</p>
+      <p>jpdferreira.com</p>
+    </div>
+  </footer>
 
 </body>
 </html>
