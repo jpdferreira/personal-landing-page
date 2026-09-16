@@ -51,3 +51,17 @@ Then add the URL to:
 2. Add `assets/images/profile.jpg`
 3. Replace current GitHub site files with this structure
 4. Test all navigation after deployment
+
+
+## AI article migrated locally
+
+Added:
+
+`thinking/ai-broken-operating-model/index.html`
+
+Hero/social image:
+
+`assets/images/articles/ai-broken-operating-model.png`
+
+The homepage and Thinking index now link to the local article rather than directly to LinkedIn.
+The article still links to the original LinkedIn publication for provenance.

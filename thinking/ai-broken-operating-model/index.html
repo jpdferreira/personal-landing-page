@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="João Paulo Dias Ferreira">
+  <meta name="robots" content="index, follow">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'sans-serif'] }
+        }
+      }
+    }
+  </script>
+
+  <link rel="icon" href="data:image/svg+xml,
+  <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>
+    <rect width='100' height='100' rx='20' fill='%23020617'/>
+    <text x='50' y='61' text-anchor='middle' font-family='Arial,sans-serif'
+      font-size='42' font-weight='700' fill='%2367e8f9'>JP</text>
+  </svg>">
+
+  <title>AI Won't Fix a Broken Operating Model | João Paulo Dias Ferreira</title>
+  <meta name="description" content="Why automating the current mess is not transformation — and why strategy, architecture and execution coherence matter more as AI makes execution cheaper.">
+  <link rel="canonical" href="https://jpdferreira.com/thinking/ai-broken-operating-model/">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="AI Won't Fix a Broken Operating Model">
+  <meta property="og:description" content="Why automating the current mess is not transformation — and why strategy, architecture and execution coherence matter more as AI makes execution cheaper.">
+  <meta property="og:url" content="https://jpdferreira.com/thinking/ai-broken-operating-model/">
+  <meta property="og:image" content="https://jpdferreira.com/assets/images/articles/ai-broken-operating-model.png">
+  <meta property="article:author" content="João Paulo Dias Ferreira">
+  <meta property="article:published_time" content="2026-02-17">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AI Won't Fix a Broken Operating Model">
+  <meta name="twitter:description" content="Why automating the current mess is not transformation — and why strategy, architecture and execution coherence matter more as AI makes execution cheaper.">
+  <meta name="twitter:image" content="https://jpdferreira.com/assets/images/articles/ai-broken-operating-model.png">
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Article",
+    "headline":"AI Won't Fix a Broken Operating Model",
+    "description":"Why automating the current mess is not transformation \u2014 and why strategy, architecture and execution coherence matter more as AI makes execution cheaper.",
+    "datePublished":"2026-02-17",
+    "dateModified":"2026-09-15",
+    "image":"https://jpdferreira.com/assets/images/articles/ai-broken-operating-model.png",
+    "author":{
+      "@type":"Person",
+      "name":"João Paulo Dias Ferreira",
+      "url":"https://jpdferreira.com/"
+    },
+    "mainEntityOfPage":"https://jpdferreira.com/thinking/ai-broken-operating-model/",
+    "isPartOf":{
+      "@type":"WebSite",
+      "name":"João Paulo Dias Ferreira",
+      "url":"https://jpdferreira.com/"
+    }
+  }
+  </script>
+</head>
+
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-cyan-300 selection:text-slate-950">
+
+  <header class="border-b border-slate-800/70 bg-slate-950/95">
+    <div class="mx-auto flex h-20 max-w-4xl items-center justify-between px-6">
+      <a href="/" class="text-xl font-semibold tracking-tight text-white">
+        JP<span class="text-cyan-300">.</span>Ferreira
+      </a>
+      <a href="/thinking/" class="text-sm font-medium text-slate-400 hover:text-white">← All thinking</a>
+    </div>
+  </header>
+
+  <main>
+    <article class="mx-auto max-w-4xl px-6 py-16 md:py-24">
+
+      <header class="mb-10 max-w-3xl">
+        <p class="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-cyan-300">
+          AI • Operating Models • Strategy • 2026
+        </p>
+
+        <h1 class="mb-6 text-4xl font-bold leading-tight tracking-tight text-white md:text-6xl">
+          AI Won't Fix a Broken Operating Model
+        </h1>
+
+        <p class="mb-6 text-xl leading-relaxed text-slate-300">
+          Why automating the current mess is not transformation — and why strategy, architecture and execution coherence matter more as AI makes execution cheaper.
+        </p>
+
+        <p class="text-sm leading-relaxed text-slate-500">
+          Originally published on LinkedIn in February 2026 as
+          <em>Is Your AI Strategy Just a Blue Pill? A Strategic Hypothesis</em>.
+          Edited and updated for jpdferreira.com.
+          <a href="https://www.linkedin.com/pulse/your-ai-strategy-just-blue-pill-strategic-hypothesis-jp-ferreira-zwvoe/" target="_blank" rel="noopener noreferrer"
+             class="text-slate-400 underline decoration-slate-700 underline-offset-4 hover:text-white">
+            View the original ↗
+          </a>
+        </p>
+      </header>
+
+      <figure class="mb-14">
+        <img
+          src="/assets/images/articles/ai-broken-operating-model.png"
+          alt="A coherent operating model turns AI and automation into scalable execution, while a broken operating model produces faster chaos."
+          class="w-full rounded-2xl border border-slate-800 bg-slate-900"
+        >
+        <figcaption class="mt-3 text-center text-xs leading-relaxed text-slate-500">
+          AI amplifies the system it enters. A coherent operating model creates leverage; a broken one can create faster chaos.
+        </figcaption>
+      </figure>
+
+      <div class="max-w-3xl space-y-7 text-[17px] leading-8 text-slate-300">
+
+        <p>
+          There is a growing tendency for leaders to stare at AI and ask whether it is a silver bullet
+          or simply a faster way of generating noise. We have seen versions of this before — from early
+          automation to big-data hype cycles — and the pattern is familiar.
+        </p>
+
+        <p>
+          The uncomfortable possibility is that many organisations are using AI to
+          <strong class="text-white">automate their current mess</strong>.
+        </p>
+
+        <p>
+          That is the blue pill: preserve the existing operating model, add increasingly capable technology,
+          and hope that the result is transformation.
+        </p>
+
+        <p>
+          It rarely works that way. Technology can accelerate a process, but it cannot decide whether the
+          process should exist. It can optimise a workflow, but it cannot resolve contradictory ownership.
+          It can generate information at extraordinary speed, but that does not automatically produce better judgement.
+        </p>
+
+        <h2 class="pt-4 text-2xl font-semibold text-white">The problem is not access to AI. It is architecture.</h2>
+
+        <p>
+          Many businesses already have more data and information than they can meaningfully use.
+          The scarce resource is increasingly the ability to connect that information to decisions,
+          operating context and strategic intent.
+        </p>
+
+        <p>
+          This creates what I see as an <strong class="text-white">architectural gap</strong> between
+          strategy and automated execution.
+        </p>
+
+        <p>
+          As AI agents become more capable, three layers become useful to distinguish:
+        </p>
+
+        <div class="space-y-5 rounded-xl border border-slate-800 bg-slate-900/40 p-6">
+          <div>
+            <p class="font-semibold text-white">1. AI agents — execution</p>
+            <p class="mt-1 text-sm leading-relaxed text-slate-400">
+              Increasingly autonomous systems that execute tasks with speed and consistency.
+              They are powerful precisely because execution is becoming cheaper and more abundant.
+            </p>
+          </div>
+
+          <div>
+            <p class="font-semibold text-white">2. The systems architect — integration</p>
+            <p class="mt-1 text-sm leading-relaxed text-slate-400">
+              The layer that connects roles, processes, data, decision rights, governance and technology
+              into a coherent operating system. Its job is not to slow execution down, but to ensure the
+              pieces reinforce rather than contradict one another.
+            </p>
+          </div>
+
+          <div>
+            <p class="font-semibold text-white">3. The strategic pilot — intent</p>
+            <p class="mt-1 text-sm leading-relaxed text-slate-400">
+              Leadership that determines where the organisation is trying to go, what trade-offs matter,
+              what should be redesigned, and which outcomes are worth optimising in the first place.
+            </p>
+          </div>
+        </div>
+
+        <p>
+          The terminology matters less than the underlying point:
+          <strong class="text-white">logic and intent are not the same thing</strong>.
+        </p>
+
+        <h2 class="pt-4 text-2xl font-semibold text-white">AI can optimise a path. It cannot choose the destination for you.</h2>
+
+        <p>
+          An AI system can become exceptionally good at finding a route once the objective is defined.
+          But organisations are full of competing objectives: speed versus risk, utilisation versus resilience,
+          local performance versus enterprise value, customer customisation versus standardisation.
+        </p>
+
+        <p>
+          Those are not merely optimisation problems. They are strategic choices.
+        </p>
+
+        <p>
+          The danger appears when automated execution inherits objectives, data structures and workflows
+          that were designed for yesterday's business. The technology may perform exactly as requested
+          while making the organisation more efficient at doing the wrong thing.
+        </p>
+
+        <h2 class="pt-4 text-2xl font-semibold text-white">This is air-traffic control, not middle management.</h2>
+
+        <p>
+          One objection to an architectural layer is obvious: does this simply create more bureaucracy?
+          I think the opposite is possible.
+        </p>
+
+        <p>
+          A pilot flies the aircraft. Air-traffic control does not fly it for them. It creates the shared
+          structure that allows many independent aircraft to move quickly without occupying the same airspace.
+        </p>
+
+        <p>
+          Organisations need something similar as autonomous agents proliferate. Without coherent rules,
+          interfaces and decision rights, adding more agents can increase coordination cost rather than reduce it.
+        </p>
+
+        <p>
+          Good architecture should therefore remove the need for unnecessary intervention.
+          It should make autonomy safer and faster.
+        </p>
+
+        <h2 class="pt-4 text-2xl font-semibold text-white">Execution is becoming cheaper. Problem recognition becomes more valuable.</h2>
+
+        <p>
+          A more fundamental shift follows from all of this. As machines become increasingly capable of
+          performing the work, the ability to perform a task is less likely to be the scarce resource.
+        </p>
+
+        <p>
+          The bottleneck moves upstream: identifying the right problem, understanding the system around it,
+          deciding what should change and designing a coherent future state.
+        </p>
+
+        <p>
+          That changes the economics of transformation. When the “doing” becomes easier,
+          <strong class="text-white">knowing what should be done — and how the pieces should fit together — becomes more valuable</strong>.
+        </p>
+
+        <h2 class="pt-4 text-2xl font-semibold text-white">Don't automate the current operating model by default.</h2>
+
+        <p>
+          This is the question I would put in front of any leadership team developing an AI strategy:
+        </p>
+
+        <blockquote class="border-l-2 border-cyan-300 pl-6 text-xl font-light leading-relaxed text-slate-200">
+          If we designed this company today, knowing what AI can now do, would we build the same roles,
+          workflows, interfaces and management systems?
+        </blockquote>
+
+        <p>
+          If the answer is no, then automating the existing process is probably not the transformation.
+          It may only be an intermediate step.
+        </p>
+
+        <p>
+          The larger opportunity is to redesign the system: which work remains human, which becomes automated,
+          where judgement belongs, how decisions move, what information matters, which controls are necessary,
+          and how accountability works when humans and machines increasingly operate together.
+        </p>
+
+        <h2 class="pt-4 text-2xl font-semibold text-white">From AI strategy to a transformation machine</h2>
+
+        <p>
+          I used the phrase <strong class="text-white">Transformation Machine</strong> in the original article.
+          I still like the idea, but I would define it more explicitly today.
+        </p>
+
+        <p>
+          It is not a department or a programme. It is an organisational capability for repeatedly connecting:
+        </p>
+
+        <ul class="ml-5 list-disc space-y-2 marker:text-cyan-300">
+          <li>strategic intent,</li>
+          <li>operating-model design,</li>
+          <li>technology and data,</li>
+          <li>people and decision rights,</li>
+          <li>and execution.</li>
+        </ul>
+
+        <p>
+          AI becomes powerful inside that system because it amplifies something coherent.
+        </p>
+
+        <p>
+          Without it, the organisation may simply acquire increasingly sophisticated tools while the underlying
+          friction remains intact.
+        </p>
+
+        <h2 class="pt-4 text-2xl font-semibold text-white">The real AI Valley of Death</h2>
+
+        <p>
+          The Valley of Death for a new technology is not always a lack of tools or technical capability.
+          It is often the gap between what technology makes possible and what the organisation is capable of absorbing.
+        </p>
+
+        <p>
+          In the AI era, that gap may become more visible because the technology is improving faster than many
+          operating models can adapt.
+        </p>
+
+        <p>
+          The companies that benefit most will not necessarily be those with the largest collection of agents.
+          They will be those able to connect new execution capability to strategy, architecture and human judgement.
+        </p>
+
+        <p class="text-xl font-medium leading-relaxed text-white">
+          AI will not fix a broken operating model. But it may make the cost of leaving it broken impossible to ignore.
+        </p>
+
+      </div>
+
+      <div class="mt-16 border-t border-slate-800 pt-8">
+        <p class="text-sm text-slate-500">
+          João Paulo Dias Ferreira · Transformation & Operations Executive
+        </p>
+        <div class="mt-4 flex flex-wrap gap-4">
+          <a href="/thinking/" class="text-sm font-semibold text-cyan-300 hover:text-cyan-200">More thinking →</a>
+          <a href="https://www.linkedin.com/pulse/your-ai-strategy-just-blue-pill-strategic-hypothesis-jp-ferreira-zwvoe/" target="_blank" rel="noopener noreferrer"
+             class="text-sm font-semibold text-slate-400 hover:text-white">Original LinkedIn article ↗</a>
+        </div>
+      </div>
+
+    </article>
+  </main>
+
+  <footer class="border-t border-slate-800/70 py-8 text-xs text-slate-500">
+    <div class="mx-auto flex max-w-4xl justify-between px-6">
+      <p>© 2026 João Paulo Dias Ferreira.</p>
+      <a href="/" class="hover:text-white">jpdferreira.com</a>
+    </div>
+  </footer>
+
+</body>
+</html>
