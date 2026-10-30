@@ -12,3 +12,12 @@ Included:
 
 Deployment:
 Copy these files over the matching paths in the existing website repository. Existing article directories should remain in place; this package does not intentionally delete or replace them.
+
+
+Editorial v2:
+- denser paragraph rhythm
+- reduced section spacing
+- consolidated short paragraphs
+- horizontal one-line reconfiguration flow with mobile scroll
+- compact CVC tension strip
+- reduced card/box usage
