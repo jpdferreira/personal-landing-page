@@ -14,10 +14,10 @@ Deployment:
 Copy these files over the matching paths in the existing website repository. Existing article directories should remain in place; this package does not intentionally delete or replace them.
 
 
-Editorial v2:
-- denser paragraph rhythm
-- reduced section spacing
-- consolidated short paragraphs
-- horizontal one-line reconfiguration flow with mobile scroll
-- compact CVC tension strip
-- reduced card/box usage
+Editorial v3:
+- article shell widened to max-w-4xl; body copy stays max-w-3xl
+- section headings slightly reduced and kept on one line on large desktop where possible
+- Martec's Law kept on one line from medium screens upward
+- CVC tensions use a 2x2 responsive grid; no horizontal scroll
+- Reconfiguration Loop uses a responsive 6/3/2-column grid; no horizontal scroll
+- roadmap wraps cleanly; no horizontal scroll
